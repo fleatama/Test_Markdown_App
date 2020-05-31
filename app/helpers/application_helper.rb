@@ -10,7 +10,7 @@ module ApplicationHelper
   lax_tml_blocks: true,
   strikethrough: true
 
-  def html
+  def html(markdown)
     @@markdown.render(markdown).html_safe
   end
 end
