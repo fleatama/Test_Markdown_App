@@ -18,6 +18,8 @@ gem 'uglifier', '>= 1.3.0'
 # markdown
 gem "redcarpet", "~> 2.3.0"
 gem 'acts-as-taggable-on', '~> 6.0'
+# Devise
+gem 'devise'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
