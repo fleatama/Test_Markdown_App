@@ -6,3 +6,182 @@
 2020-06-06 22:48:26.214 JST [87735] WARNING:  could not create listen socket for "localhost"
 2020-06-06 22:48:26.214 JST [87735] FATAL:  could not create any TCP/IP sockets
 2020-06-06 22:48:26.215 JST [87735] LOG:  database system is shut down
+2020-06-06 23:08:45.577 JST [93180] FATAL:  lock file "postmaster.pid" already exists
+2020-06-06 23:08:45.577 JST [93180] HINT:  Is another postmaster (PID 89028) running in data directory "/usr/local/var/postgres"?
+2020-06-06 23:20:34.898 JST [96236] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin19.4.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.59), 64-bit
+2020-06-06 23:20:34.901 JST [96236] LOG:  listening on IPv6 address "::1", port 5432
+2020-06-06 23:20:34.901 JST [96236] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-06-06 23:20:34.903 JST [96236] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-06-06 23:20:34.916 JST [96237] LOG:  database system was shut down at 2020-06-06 23:20:25 JST
+2020-06-06 23:20:34.920 JST [96236] LOG:  database system is ready to accept connections
+2020-06-06 23:21:22.008 JST [96560] FATAL:  lock file "postmaster.pid" already exists
+2020-06-06 23:21:22.008 JST [96560] HINT:  Is another postmaster (PID 96236) running in data directory "/usr/local/var/postgres"?
+2020-06-06 23:21:25.378 JST [96666] FATAL:  lock file "postmaster.pid" already exists
+2020-06-06 23:21:25.378 JST [96666] HINT:  Is another postmaster (PID 96236) running in data directory "/usr/local/var/postgres"?
+2020-06-06 23:21:34.924 JST [96236] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-06-06 23:21:34.932 JST [96236] LOG:  performing immediate shutdown because data directory lock file is invalid
+2020-06-06 23:21:34.932 JST [96236] LOG:  received immediate shutdown request
+2020-06-06 23:21:34.932 JST [96236] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-06-06 23:21:34.935 JST [96241] WARNING:  terminating connection because of crash of another server process
+2020-06-06 23:21:34.935 JST [96241] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2020-06-06 23:21:34.935 JST [96241] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2020-06-06 23:21:34.936 JST [96242] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2020-06-06 23:21:34.939 JST [96236] LOG:  database system is shut down
+2020-06-06 23:24:44.431 JST [97243] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin19.4.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.59), 64-bit
+2020-06-06 23:24:44.437 JST [97243] LOG:  listening on IPv6 address "::1", port 5432
+2020-06-06 23:24:44.438 JST [97243] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-06-06 23:24:44.439 JST [97243] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-06-06 23:24:44.464 JST [97244] LOG:  database system was shut down at 2020-06-06 23:21:30 JST
+2020-06-06 23:24:44.477 JST [97243] LOG:  database system is ready to accept connections
+2020-06-06 23:37:52.586 JST [98673] FATAL:  lock file "postmaster.pid" already exists
+2020-06-06 23:37:52.586 JST [98673] HINT:  Is another postmaster (PID 97243) running in data directory "/usr/local/var/postgres"?
+2020-06-06 23:38:07.097 JST [98891] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin19.4.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.59), 64-bit
+2020-06-06 23:38:07.103 JST [98891] LOG:  could not bind IPv6 address "::1": Address already in use
+2020-06-06 23:38:07.103 JST [98891] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2020-06-06 23:38:07.103 JST [98891] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2020-06-06 23:38:07.103 JST [98891] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2020-06-06 23:38:07.103 JST [98891] WARNING:  could not create listen socket for "localhost"
+2020-06-06 23:38:07.104 JST [98891] FATAL:  could not create any TCP/IP sockets
+2020-06-06 23:38:07.104 JST [98891] LOG:  database system is shut down
+2020-06-06 23:38:44.796 JST [97249] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-06 23:38:44.835 JST [97243] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-06-06 23:38:44.835 JST [97243] LOG:  performing immediate shutdown because data directory lock file is invalid
+2020-06-06 23:38:44.835 JST [97243] LOG:  received immediate shutdown request
+2020-06-06 23:38:44.835 JST [97243] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-06-06 23:38:44.835 JST [97248] WARNING:  terminating connection because of crash of another server process
+2020-06-06 23:38:44.835 JST [97248] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2020-06-06 23:38:44.835 JST [97248] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2020-06-06 23:38:44.836 JST [97249] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2020-06-06 23:38:44.838 JST [97243] LOG:  database system is shut down
+2020-06-06 23:38:51.882 JST [99213] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin19.4.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.59), 64-bit
+2020-06-06 23:38:51.884 JST [99213] LOG:  listening on IPv6 address "::1", port 5432
+2020-06-06 23:38:51.885 JST [99213] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-06-06 23:38:51.886 JST [99213] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-06-06 23:38:51.899 JST [99214] LOG:  database system was shut down at 2020-06-06 23:38:42 JST
+2020-06-06 23:38:51.905 JST [99213] LOG:  database system is ready to accept connections
+2020-06-06 23:51:52.032 JST [99213] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-06-06 23:51:52.041 JST [99213] LOG:  performing immediate shutdown because data directory lock file is invalid
+2020-06-06 23:51:52.041 JST [99213] LOG:  received immediate shutdown request
+2020-06-06 23:51:52.041 JST [99213] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-06-06 23:51:52.041 JST [99218] WARNING:  terminating connection because of crash of another server process
+2020-06-06 23:51:52.041 JST [99218] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2020-06-06 23:51:52.041 JST [99218] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2020-06-06 23:51:52.042 JST [99219] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2020-06-06 23:51:52.046 JST [99213] LOG:  database system is shut down
+2020-06-06 23:52:17.555 JST [3054] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin19.4.0, compiled by Apple clang version 11.0.3 (clang-1103.0.32.59), 64-bit
+2020-06-06 23:52:17.558 JST [3054] LOG:  listening on IPv6 address "::1", port 5432
+2020-06-06 23:52:17.558 JST [3054] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-06-06 23:52:17.561 JST [3054] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-06-06 23:52:17.574 JST [3055] LOG:  database system was shut down at 2020-06-06 23:52:04 JST
+2020-06-06 23:52:17.578 JST [3054] LOG:  database system is ready to accept connections
+2020-06-09 19:57:16.237 JST [25894] ERROR:  role "markdownapp" already exists
+2020-06-09 19:57:16.237 JST [25894] STATEMENT:  CREATE ROLE markdownapp PASSWORD 'md596a0f02b1818d949d840a9710e223c96' NOSUPERUSER NOCREATEDB NOCREATEROLE INHERIT LOGIN;
+2020-06-09 19:59:53.557 JST [26526] FATAL:  could not open file "global/pg_filenode.map": No such file or directory
+2020-06-09 20:00:11.646 JST [26743] FATAL:  could not open file "global/pg_filenode.map": No such file or directory
+2020-06-09 20:00:30.098 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:30.785 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:30.785 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:31.481 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:31.481 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:32.175 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:32.175 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:32.932 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:32.933 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:33.623 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:33.623 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:34.318 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:34.318 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:35.228 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:35.229 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:35.926 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:35.929 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:36.601 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:36.601 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:37.280 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:37.280 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:38.003 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:38.004 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:38.684 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:38.684 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:39.384 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:39.385 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:40.080 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:40.080 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:40.757 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:40.757 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:41.184 JST [3059] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-06-09 20:00:41.224 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:41.355 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:41.937 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:41.937 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:42.657 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:42.657 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:43.354 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:43.354 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:44.060 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:44.060 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:44.770 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:44.770 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:45.466 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:45.466 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:46.167 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:46.167 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:46.873 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:46.873 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:47.573 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:47.574 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:48.275 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:48.275 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:48.970 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:48.970 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:49.660 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:49.662 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:50.364 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:50.364 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:51.074 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:51.074 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:51.776 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:51.776 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:52.242 JST [3059] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-06-09 20:00:52.242 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:52.242 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:52.933 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:52.933 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:53.641 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:53.641 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:54.317 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:54.317 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:55.007 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:55.007 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:55.697 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:55.697 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:56.393 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:56.393 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:57.090 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:57.090 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:57.795 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:57.795 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:58.513 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:58.513 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:59.228 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:59.228 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:59.924 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:00:59.924 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:01:00.615 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:01:00.615 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:01:01.317 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:01:01.317 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:01:02.012 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:01:02.012 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:01:02.715 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:01:02.715 JST [3060] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2020-06-09 20:01:03.151 JST [3059] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2020-06-09 20:01:11.658 JST [3054] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-06-09 20:01:11.658 JST [3054] LOG:  performing immediate shutdown because data directory lock file is invalid
+2020-06-09 20:01:11.658 JST [3054] LOG:  received immediate shutdown request
+2020-06-09 20:01:11.668 JST [3054] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-06-09 20:01:11.668 JST [3059] WARNING:  terminating connection because of crash of another server process
+2020-06-09 20:01:11.668 JST [3059] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2020-06-09 20:01:11.668 JST [3059] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2020-06-09 20:01:11.668 JST [3060] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2020-06-09 20:01:11.684 JST [3054] LOG:  database system is shut down

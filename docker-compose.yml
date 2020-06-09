@@ -3,6 +3,9 @@ version: '3'
 services:
   db:
     image: postgres
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: 'trust'
+      # POSTGRES_PASSWORD: 'postgres' ← envファイルに外出ししても良い
     ports:
       - '5432:5432' # ホストからゲストへポートフォワード
     volumes:
