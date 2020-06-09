@@ -83,3 +83,17 @@ production:
   database: markdownapp_production
   username: markdownapp
   password: <%= ENV['markdownapp_DATABASE_PASSWORD'] %>
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: db
+  username: postgres
+  password: password  #この行がDocker公式に載ってない。
+  pool: 5
+
+development: <<: *default
+  database: myapp_development
+
+test: <<: *default
+  database: myapp_test
